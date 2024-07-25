@@ -1,4 +1,4 @@
-TubeS: Mock Video Platform Project><br/>
+<h2>TubeS: Mock Video Platform Project</h2><br/>
  
   ![TubeS](https://github.com/user-attachments/assets/b50badef-41d5-484a-8e92-687ff3bafba9)<br/>
 <br/>
