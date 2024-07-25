@@ -1,0 +1,107 @@
+.side-container{
+  width: 10%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+ position: fixed;
+padding-left: 20px;
+margin-top: 45px;
+overflow-y: scroll;
+}
+.side-container::-webkit-scrollbar {
+  display: none;
+}
+.side-container p{
+ transition: 0.4s ease-in-out;
+ 
+}
+.side-container i{
+  cursor: pointer;
+ 
+}
+.smaller-bar p{
+
+opacity: 0;
+transition: 0.11s ease-out;
+
+}
+.smaller-bar .line{
+  width: 20%;
+  opacity: 0.2;
+  
+}
+.side-container hr{
+  width: 90%;
+  opacity: 0.2;
+  margin: 18px 0;
+}
+.Subscriptions{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.youtuber{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 12px;
+}
+.youtuber img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.youtuber p{
+  font-size: 13px;
+  cursor: pointer;
+}
+.youtuber img{
+  
+  cursor: pointer;
+}
+.top-high{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.top-high p{
+  cursor: pointer;
+  
+}
+.section{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ gap: 16px;
+}
+.Active i{
+  padding-bottom: 1px;
+  border-bottom: 1px solid red;
+}
+
+@media screen and (max-width: 1065px) {
+  .side-container{
+  width: 10%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: transparent;
+ position: fixed;
+padding-left: 20px;
+margin-top: 45px;
+overflow-y: scroll;
+}
+.side-container i{
+  font-size: 22px;
+  
+}
+.side-container p{
+ display: none;
+  
+}
+
+}

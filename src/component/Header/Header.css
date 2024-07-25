@@ -1,0 +1,137 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 33px;
+  background-color: transparent;
+  box-shadow:0 0 4px rgba(255,255,255, 0.1) ;
+  position: sticky;
+  top: 0;
+  background-color: rgb(29, 29, 29);
+  z-index: 999;
+}
+.head i{
+  cursor: pointer;
+}
+.top-left ,.top-right{
+  display: flex;
+ gap: 40px;
+ font-size: 23px;
+
+}
+.logo{
+  font-size: 20px;
+  cursor: pointer;
+}
+.top-middle{
+  position: relative;
+}
+.search{
+  border: none;
+  color: rgb(204, 204, 204);
+  width: 650px;
+  height: 40px;
+  border-radius: 15px;
+  padding: 9px 45px 9px 9px;
+  background-color: transparent;
+  border: 1px solid rgb(73, 73, 73);
+}
+.search::placeholder{
+  color: rgb(196, 196, 196);
+}
+.glass{
+  position: absolute;
+  color: rgb(158, 158, 158);
+  bottom: 14%;
+  left: 95%;
+  font-size: 15px;
+ cursor: pointer;
+}
+.search:focus{
+  outline:transparent;
+}
+.nat{
+ position: relative;
+
+}
+.nat p{
+  position: absolute;
+  background-color: rgb(219, 35, 35);
+  padding: 2px 6px;
+  font-size: 7px ;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+}
+.bell{
+  margin-right: 2px;
+}
+
+@media only screen and (max-width:1090px){
+  .search{
+  width: 450px;
+  height: 37px;
+  padding: 9px 45px 9px 9px;
+
+}
+.head i{
+  font-size: 20px
+}
+.top-middle .glass{
+  
+  bottom: 9%;
+  left: 92%;
+  font-size: 17px;
+ 
+}
+}
+
+@media only screen and (max-width:1090px){
+  .search{
+  width: 290px;
+  height: 37px;
+  padding: 9px 45px 9px 9px;
+
+}
+.head i{
+  font-size: 17px
+}
+.top-middle .glass{
+  
+  bottom: 7%;
+  left: 88%;
+  font-size: 15px;
+ 
+}
+}
+@media screen and (max-width: 1065px) {
+  .menu{
+   display: none;
+  }
+
+}
+@media only screen and (max-width:645px){
+
+  .search{
+  width: 200px;
+  height: 34px;
+  padding: 9px 45px 9px 9px;
+
+}
+.head i{
+  font-size: 17px
+}
+.top-middle .glass{
+  
+  bottom: 9%;
+  left: 83%;
+  font-size: 15px;
+ 
+}
+.top-left ,.top-right{
+  display: flex;
+ gap: 28px;
+ font-size: 23px;
+
+}
+}

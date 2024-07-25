@@ -1,0 +1,56 @@
+.side-vid{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 30%;
+}
+.videDetail img{
+width: 200px;
+
+}
+.videDetail{
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  gap: 10px;
+  cursor: pointer;
+}
+.side-title{
+  font-size: 10px;
+  line-height: 20px;
+}
+.side-details{
+  display: flex;
+  flex-direction: column;
+ gap: 11px;
+  margin-bottom: 10px;
+}
+.name{
+font-size: 12px
+}
+.static{
+  font-size: 11px;
+}
+
+
+
+@media screen and (max-width: 1331px) {
+  .side-vid{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-basis: 30%;
+}
+.videDetail img{
+width: 160px;
+height: 100px;
+
+}
+.videDetail{
+ 
+  margin-left: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+}
+
